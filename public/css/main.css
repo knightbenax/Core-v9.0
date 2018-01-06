@@ -1,0 +1,123 @@
+html, body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Lato', 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.header{
+  z-index: 4;
+  position: relative;
+  padding: 15px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img.logo{
+  width: 50px;
+}
+
+.header ul{
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+  /*padding: 10px;*/
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
+
+.header ul li{
+  display: inline-block;
+  list-style: none;
+  font-size: 14px;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.header ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #ffff;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.banner{
+  height: 100%;
+  background-image: url('../images/md05755_large.jpg');
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+
+.banner .overlay{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  content: '';
+  display: flex;
+  /*background-color: #270000;#720606;#6f0606*/
+
+  opacity: 0.8;
+  z-index: 3;
+}
+
+.banner .overlay .first{
+  width: 65%;
+  background-color: #5f7801;
+  height: 100%;
+}
+
+.banner .overlay .second{
+  width: 35%;
+  background-color: #bbb;
+  height: 100%;
+}
