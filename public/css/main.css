@@ -11,6 +11,12 @@ html, body {
     height: 100vh;
 }
 
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 .flex-center {
     align-items: center;
     display: flex;
@@ -29,22 +35,33 @@ html, body {
 
 .header{
   z-index: 4;
-  position: relative;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  width: 100%;
   padding: 15px 20px 0px 20px;
-  display: flex;
+vertical-align: top;
   justify-content: space-between;
 }
 
 .header img.logo{
   width: 50px;
+  display: inline-block;
 }
 
 .header ul{
   margin: 0px;
+  margin-top: 5px;
+  float: right;
   padding: 0px;
+  display: inline-block;
   background-color: #000;
   /*padding: 10px;*/
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
+
+.header ul li:first-of-type{
+  background-color: #e43719;
 }
 
 .header ul li{
@@ -62,15 +79,41 @@ html, body {
 
 .content {
     text-align: center;
-    height: 100%;
+    height: 76%;
     position: relative;
     z-index: 4;
     max-width: 1080px;
-    margin: auto;
+    margin: 20px auto 0px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .details{
+  width: calc(60% - 50px);
+  height: calc(100% - 60px);
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 4px solid rgba(255, 255, 255, 0.9);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.9);
+  padding: 30px 0px;
+}
+
+.content .cover{
+  width: 40%;
+  height: 100%;
+  background-image: url('../images/_MD05688.JPG');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
 }
 
 .title {
-    font-size: 84px;
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Passion One', cursive;
 }
 
 .links > a {
@@ -91,6 +134,7 @@ html, body {
   height: 100%;
   background-image: url('../images/md05755_large.jpg');
   background-size: cover;
+  background-position: center
   position: relative;
   width: 100%;
 }
@@ -106,7 +150,7 @@ html, body {
   display: flex;
   /*background-color: #270000;#720606;#6f0606*/
 
-  opacity: 0.8;
+
   z-index: 3;
 }
 
@@ -114,10 +158,12 @@ html, body {
   width: 65%;
   background-color: #5f7801;
   height: 100%;
+  opacity: 0.9;
 }
 
 .banner .overlay .second{
   width: 35%;
   background-color: #bbb;
   height: 100%;
+  opacity: 0.7;
 }
