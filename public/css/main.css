@@ -34,7 +34,7 @@ html, body {
 }
 
 .header{
-  z-index: 4;
+  z-index: 5;
   position: fixed;
   top:0px;
   left: 0px;
@@ -98,7 +98,63 @@ vertical-align: top;
   border-top: 4px solid rgba(255, 255, 255, 0.9);
   border-bottom: 4px solid rgba(255, 255, 255, 0.9);
   padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
 }
+
+.content .details:hover .title{
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.9);
+}
+
+.content .box_cover{
+  width: 28%;
+  position: relative;
+}
+
+.content .box_cover .okezi{
+  position: absolute;
+  right: -40px;
+  top:60px;
+  width: 110%;
+  height: 450px;
+  background-image: url('../images/_MD05688.JPG');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+  border-radius:35px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.content .box_header{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content .box{
+  width: 72%;
+  line-height: 1.8;
+  text-align: left;
+  color: #fff;
+  padding: 25px 30px 30px 60px;
+  border-radius:35px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #5f7801;
+  margin-bottom: 50px;
+}
+
+.preamble{
+  flex-grow: 1;
+}
+
+.date{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+}
+
 
 .content .cover{
   width: 40%;
@@ -107,6 +163,11 @@ vertical-align: top;
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
+
+.title > a{
+  color: #fff;
+  text-decoration: none;
 }
 
 .title {
@@ -128,6 +189,10 @@ vertical-align: top;
 
 .m-b-md {
     margin-bottom: 30px;
+}
+
+.banner.ng-bg{
+  background-image: none;
 }
 
 .banner{

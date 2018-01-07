@@ -57,7 +57,9 @@
             </div>
             <div class="content">
               <div class="details">
-                <div class="title">Annual YDI 21 Days Prayer & Fasting<br/>Program</div>
+                <div class="title"><a href="prayers">Annual YDI 21 Days Prayer & Fasting<br/>Program</a></div>
+                <div class="preamble"></div>
+                <div class="date">Monday, Jan 8th 2018</div>
               </div>
               <div class="cover"></div>
             </div>
