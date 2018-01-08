@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+
+  .header ul{
+    display: none;
+  }
+
+  .content .box_cover{
+    display: none;
+  }
+
+  .content .box{
+      width: 90%;
+      margin: auto;
+
+  }
+
+  .content{
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .content .box_inner{
+    padding: 15px 20px;
+  }
+
+  .content .cover{
+    display: none;
+  }
+
+  .content .details{
+    width: 90%;
+    margin: auto;
+  }
+
+}
