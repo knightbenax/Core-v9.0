@@ -136,8 +136,11 @@ vertical-align: top;
   line-height: 1.8;
   text-align: left;
   color: #fff;
+}
+
+.content .box_inner{
   padding: 25px 30px 30px 60px;
-  border-radius:35px;
+  border-radius:3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   background-color: #5f7801;
@@ -159,10 +162,22 @@ vertical-align: top;
 .content .cover{
   width: 40%;
   height: 100%;
-  background-image: url('../images/_MD05688.JPG');
+  background-image: url('../images/prayer.jpg');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
+
+.read_more{
+  text-align: left;
+  margin-top: 10px;
+
+}
+
+.read_more > a{
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .title > a{
@@ -199,7 +214,7 @@ vertical-align: top;
   height: 100%;
   background-image: url('../images/md05755_large.jpg');
   background-size: cover;
-  background-position: center
+  background-position: center;
   position: relative;
   width: 100%;
 }
