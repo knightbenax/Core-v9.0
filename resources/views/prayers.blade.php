@@ -70,13 +70,13 @@
               <img src="{{ asset('/images/YD1.png') }}" class="logo"/>
               <ul>
                 <li><i class="fa fa-bars"></i></li>
-                <li><a href=''>About YDi</a></li>
-                <li><a href=''>Soul Food</a></li>
-                <li><a href=''>Lifestyle/Fashion</a></li>
-                <li><a href=''>Art</a></li>
-                <li><a href=''>YDi TV</a></li>
-                <li><a href=''>Business/Career</a></li>
-                <li><a href=''>Academics</a></li>
+                <li><a href="{{ url('/about-ydi')}}">About YDi</a></li>
+                <li><a href="{{ url('/soul-food')}}">Soul Food</a></li>
+                <li><a href="{{ url('/lifestyle')}}">Lifestyle/Fashion</a></li>
+                <li><a href="{{ url('/art')}}">Art</a></li>
+                <li><a href="{{ url('/ydi-tv')}}">YDi TV</a></li>
+                <li><a href="{{ url('/business-career')}}">Business/Career</a></li>
+                <li><a href="{{ url('/academics')}}">Academics</a></li>
               </ul>
             </div>
             <div class="content">
