@@ -18,3 +18,32 @@ Route::get('/', function () {
 Route::get('/prayers', function () {
     return view('prayers');
 });
+
+
+Route::get('/about-ydi', function () {
+    return view('underconstruction');
+});
+
+Route::get('/soul-food', function () {
+    return view('underconstruction');
+});
+
+Route::get('/lifestyle', function () {
+    return view('underconstruction');
+});
+
+Route::get('/art', function () {
+    return view('underconstruction');
+});
+
+Route::get('/ydi-tv', function () {
+    return view('underconstruction');
+});
+
+Route::get('/business-career', function () {
+    return view('underconstruction');
+});
+
+Route::get('/academics', function () {
+    return view('underconstruction');
+});

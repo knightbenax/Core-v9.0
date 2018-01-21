@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>YDi - Core v9.0</title>
+        <title>YDi - Coming Soon</title>
 
         <meta name="description" content="Annual YDI 21 Days Prayer & Fasting" />
         <meta name="author" content="Ashefor Bezaleel" />
@@ -85,12 +85,12 @@
             </div>
             <div class="content">
               <div class="details">
-                <div class="title"><a href="prayers">Annual YDI 21 Days Prayer & Fasting<br/>Program</a></div>
-                <div class="read_more"><a href="prayers">READ MORE</a></div>
+                <div class="title">YDi Core v9.0</div>
+                <div class="read_more">We are currently rebuilding and creating a whole new web experience for you that showcases a whole lot more about YDi and YDs, both at home and in the diaspora. Do check back here by the 28th of January 2018.</div>
                 <div class="preamble"></div>
-                <div class="date">Monday, Jan 8th 2018</div>
+                <!--<div class="date">Monday, Jan 8th 2018</div>-->
               </div>
-              <div class="cover"></div>
+              <div class="cover_two"></div>
             </div>
           </div>
         </div>
